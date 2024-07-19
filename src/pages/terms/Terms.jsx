@@ -5,7 +5,7 @@ const Terms = () => {
   return (
     <div className="terms">
       <div className="terms-content">
-        <centre><h2>Terms and Conditions</h2></centre>
+        <h2><centre>Terms and Conditions</centre></h2>
         <p>
         <b>1. Acceptance of Terms:</b></p>
 <p>By using our website EduNexus, you agree to these Terms and Conditions. If you do not agree, please refrain from using our services.</p>
@@ -40,10 +40,10 @@ const Terms = () => {
 <p>For any questions or concerns, please contact us:</p>
 <p>•	Email: z.zoya9120@gmail.com</p>
 <p>•	Address: Kali Asthan Road near Jama Masjid, Jugsalai, Jamshedpur, Jharkhand, India</p>
-<p>Thank you for using EduNexus!
+<p><b><centre>Thank you for using EduNexus!
 
 
-        </p>
+</centre></b></p>
       </div>
     </div>
   );
