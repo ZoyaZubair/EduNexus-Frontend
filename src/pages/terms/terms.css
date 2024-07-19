@@ -13,16 +13,15 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
   
-  h2 {
-    font-size: 32px;
-    color: #af9d4b;
-    margin-bottom: 20px;
+  h2, .centered {
+    text-align: center;
   }
   
   p {
     font-size: 16px;
     color: #1d115c;
     line-height: 1.6;
+    text-align: left; /* Ensure all paragraphs are left-aligned */
   }
   
   a {
