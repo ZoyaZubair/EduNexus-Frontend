@@ -8,6 +8,7 @@ import Register from "./pages/auth/Register";
 import Verify from "./pages/auth/Verify";
 import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
+import Terms from "./pages/terms/Terms";
 import Account from "./pages/account/Account";
 import { UserData } from "./context/UserContext";
 import Loading from "./components/loading/Loading";
@@ -34,6 +35,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
+            <Route path="/terms" element={<Terms />} />
             <Route
               path="/account"
               element={isAuth ? <Account user={user} /> : <Login />}
