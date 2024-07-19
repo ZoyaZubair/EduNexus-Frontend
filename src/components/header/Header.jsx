@@ -11,6 +11,7 @@ const Header = ({ isAuth }) => {
         <Link to={"/"}>Home</Link>
         <Link to={"/courses"}>Courses</Link>
         <Link to={"/about"}>About</Link>
+        <Link to={"/terms"}>Terms and Conditions</Link>
         {isAuth ? (
           <Link to={"/account"}>Account</Link>
         ) : (
