@@ -10,7 +10,13 @@ const Terms = () => {
           <b>1. Acceptance of Terms:</b>
         </p>
         <p className={styles.paragraph}>
-          By using our website EduNexus, you agree to these Terms and Conditions. If you do not agree, please refrain from using our services.
+          This website is operated by EduNexus. Throughout the site, the terms “we”, “us”, and “our” refer to EduNexus. EduNexus offers this website, including all information, tools, and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.
+        </p>
+        <p className={styles.paragraph}>
+          By visiting our site and/or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/or contributors of content.
+        </p>
+        <p className={styles.paragraph}>
+          Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.
         </p>
         <p className={styles.paragraph}>
           <b>2. Privacy Policy:</b>
